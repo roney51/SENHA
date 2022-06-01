@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    Senha <input id="nota1" type="number"> <br/>
+
+    <button onclick="senha()">Sistema de senha</button>
+
+        <script type="text/javascript">
+
+        function senha(){
+            var senhaCorreta = "157";
+            var valorInserido = parseFloat(document.getElementById("valorInserido").value)
+
+            if(valorInserido=senhaCorreta)
+            alert("Bem vindo");
+            else
+            alert ("Parabéns vc conseguiu errar sua própria senha")
+        }
+    </script>
+</head>
+
+</html>
